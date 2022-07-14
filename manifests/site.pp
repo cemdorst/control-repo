@@ -29,3 +29,11 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node default {
+  include ssh
+}
+
+node /edg-*$/ {
+  include role::edg
+}

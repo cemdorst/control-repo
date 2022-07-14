@@ -1,2 +1,3 @@
 ---
-message: "This node is using common data"
+ssh::sshd_config_banner: '/etc/issue.net'
+ssh::sshd_banner_content: 'Authorized uses only. All activity may be monitored and reported.'
